@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home, Receipt, HeartPulse, Calendar, Plus } from 'lucide-react';
-import { colors, fonts } from '../styles/designSystem';
+import { colors } from '../styles/designSystem';
 import './BottomNav.css';
 
 function BottomNav({ activeTab, onTabChange }) {
