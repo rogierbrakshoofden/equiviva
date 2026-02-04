@@ -1,11 +1,11 @@
 import React from 'react';
-import { House, Receipt, HeartPulse, Calendar, Plus } from 'lucide-react';
+import { Home, Receipt, HeartPulse, Calendar, Plus } from 'lucide-react';
 import { colors, fonts } from '../styles/designSystem';
 import './BottomNav.css';
 
 function BottomNav({ activeTab, onTabChange }) {
   const navItems = [
-    { id: 'home', label: 'Home', icon: House },
+    { id: 'home', label: 'Home', icon: Home },
     { id: 'expenses', label: 'Expenses', icon: Receipt },
     { id: 'health', label: 'Health', icon: HeartPulse },
     { id: 'calendar', label: 'Calendar', icon: Calendar },
